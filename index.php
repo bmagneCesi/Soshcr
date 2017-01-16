@@ -13,7 +13,7 @@
         
         <header>
             <div class="row1">
-                <img src="img/logo.png" alt="">
+                <a href="/"> <img id="logo" src="img/logo.png" alt=""> </a>
                 <a id="login" href="login.html">Espace candidat</a>    
             </div>
 
@@ -24,7 +24,7 @@
         </header>
 
         <div class="container">
-            <a href="form1.html"  id="container-btn">
+            <a href="ville.php"  id="container-btn">
                 <span id="find-btn">TROUVER</span>
                 <p id="text-btn">l'employé idéal</p>
             </a>

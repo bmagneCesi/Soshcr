@@ -8,12 +8,12 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="vendors/css/bootstrap.css">
         <link rel="stylesheet" href="vendors/css/bootstrap-theme.css">
-        <link href='vendors/fonts/glyphicons-halfings-regular.ttf' rel='stylesheet' type='text/css'>
+        <link href='vendors/fonts/glyphicons-halflings-regular.ttf'>
     </head>
     <body id="layout">
         <header>
             <div class="row1">
-                <img id="logo" src="img/logo.png" alt="">
+                <a href="/"> <img id="logo" src="img/logo.png" alt=""> </a>
                 <a id="login" href="login.html">Espace candidat</a>    
             </div>
 
