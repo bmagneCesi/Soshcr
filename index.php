@@ -4,14 +4,16 @@
         <meta charset="utf-8">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Restauration, recrutement</title>
+        <title>Soshcr</title>
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="vendors/css/bootstrap.css">
+        <link rel="stylesheet" href="vendors/css/bootstrap-theme.css">
     </head>
     <body>
         
         <header>
             <div class="row1">
-                <img  id="logo" src="img/logo.png" alt="">
+                <img src="img/logo.png" alt="">
                 <a id="login" href="login.html">Espace candidat</a>    
             </div>
 
