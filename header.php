@@ -9,6 +9,8 @@
         <link rel="stylesheet" href="vendors/css/bootstrap.css">
         <link rel="stylesheet" href="vendors/css/bootstrap-theme.css">
         <link href='vendors/fonts/glyphicons-halflings-regular.ttf'>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
     </head>
     <body id="layout">
         <header>
