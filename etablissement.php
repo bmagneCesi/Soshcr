@@ -1,33 +1,40 @@
-<!-- HEADER -->
-<?php include('header.php') ?>
-<!-- HEADER -->
 
-<div class="form col-xs-12 col-sm-4 col-sm-offset-4 text-center">
-    <h3 class="title-heading">Où est situé votre établissement ?</h3>
-	<form class="navbar-form" method="post">
-		<div class="input-group add-on" style="width:100%">
-		  <input class="form-control" placeholder="Search" style="height:35px" name="srch-term" id="srch-term" type="text">
-		  <div class="input-group-btn"  style="width:40px">
-		    <button class="btn btn-default" name="situation" type="submit" style="height:35px"><i class="glyphicon glyphicon-search"></i></button>
-		  </div>
-		</div>
-	</form>
-</div>
-
-<?php 
-
-	if (isset($_POST['ville']) && $_POST['ville'] != "") {
-		
-		$_SESSION['ville'] = $_POST['ville'];
-
-		if (isset($_SESSION['ville']) && $_SESSION['ville'] != "")
-			header('location : etablissement.php');
-		}
-
-	}
-
-?>
-
-<!-- FOOTER -->
-<?php include('footer.php') ?>
-<!-- FOOTER -->
+	<ul>
+		<li>
+			<form method="post">
+				<button>
+					<img src="img/1-stars.png" alt="">
+					<p>brasserie hôtel non classé hôtel 1 étoile</p>
+				</button>
+				<input type="hidden" value="1" name="rank">
+			</form>
+		</li>
+		<li>
+			<form method="post">
+				<button>
+					<img src="img/3-stars.png" alt="">
+					<p>restaurant traditionnel hôtel 2 et 3 étoiles</p>
+				</button>
+				<input type="hidden" value="3" name="rank">
+			</form>
+		</li>
+		<li>
+			<form method="post">
+				<button>
+					<img src="img/5-stars.png" alt="">
+					<p>gastronomique hôtel 4 et 5 étoiles</p>
+				</button>
+				<input type="hidden" value="5" name="rank">
+			</form>
+		</li>
+		<li>
+			<form method="post">
+				<button>
+					<img src="" alt="">
+					<p>collectivité</p>
+				</button>
+				<input type="hidden" value="0" name="rank">
+			</form>
+		</li>
+	</ul>
+</form>

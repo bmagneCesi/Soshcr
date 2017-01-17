@@ -1,3 +1,7 @@
+<?php 
+    $BASE_URL = "http://" . $_SERVER['SERVER_NAME'];
+ ?>
+
 <!doctype html>
 <html>
     <head>
@@ -13,12 +17,13 @@
     <body id="layout">
         <header>
             <div class="row1">
-                <a href="/"> <img id="logo" src="img/logo.png" alt=""> </a>
-                <a id="login" href="login.html">Espace candidat</a>    
-            </div>
 
-        	<div class="row2">
-                <h1 id="main-title">Le recrutement</h1>
-                <h2 id="sub-title">en hôtellerie & restauration</h2>    
+                <a href="<?php echo $BASE_URL ?>"> <img id="logo" src="img/logo.png" alt=""> </a>
+                <a href="<?php echo $BASE_URL ?>">
+                    <h1 id="main-title">Le recrutement</h1>
+                    <h2 id="sub-title">en hôtellerie & restauration</h2>    
+                </a>
+                <a id="login" href="login.html">Espace candidat</a>    
+
             </div>
         </header>
