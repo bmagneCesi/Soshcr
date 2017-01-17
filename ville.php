@@ -17,18 +17,16 @@
 	</form>
 </div>
 
-<?php 
-	
-	
+<?php
+
+
 	if (isset($_POST['ville']) && $_POST['ville'] != "") {
-		
+
 		$_SESSION['ville'] = $_POST['ville'];
 
-		header('Location : /etablissement.php');
-
 		if (isset($_SESSION['ville']) && $_SESSION['ville'] != "")
-			header('Location : etablissement.php');
-		
+			header('Location: etablissement.php');
+
 	}
 
 ?>

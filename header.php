@@ -24,3 +24,7 @@
                 <h2 id="sub-title">en hôtellerie & restauration</h2>    
             </div>
         </header>
+
+<?php
+    session_start();
+?>
