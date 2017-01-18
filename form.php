@@ -4,20 +4,20 @@
 
 <?php 
 
-	$data = array();
+	$data = array(); // données du restaurateur
 	
-	if ( empty($_POST) ) {
+	if ( empty($_POST) ) { // première page 
 		
 		include('ville.php');
 		
 	}else if ( isset($_POST['ville']) ){
 
 		$data['ville'] = $_POST['ville'];
-		include('etablissement.php');
+		include('classification.php');
 
-	}else if ( isset($_POST['rank']) ){
+	}else if ( isset($_POST['classification']) ){
 
-		$data['rank'] = $_POST['rank'];
+		$data['classification'] = $_POST['classification'];
 		var_dump($data);
 
 	}

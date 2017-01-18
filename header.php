@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="vendors/css/bootstrap.css">
         <link rel="stylesheet" href="vendors/css/bootstrap-theme.css">
         <link href='vendors/fonts/glyphicons-halflings-regular.ttf'>
+
     </head>
     <body id="layout">
         <header>
