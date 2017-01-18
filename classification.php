@@ -1,4 +1,6 @@
-
+<!-- HEADER -->
+<?php include('header.php') ?>
+<!-- HEADER -->
 	<ul>
 		<li>
 			<form method="post">
@@ -39,4 +41,28 @@
 	</ul>
 </form>
 
-	<?php echo "test"; ?>
+<input type="button" value="Retour" onclick="document.location.href='ville.php';">
+
+
+<?php
+include("connexion.php");
+$pdo = connect();
+
+
+
+
+
+if ( isset($_POST['classification']) ){
+
+	$_SESSION['classification'] = $_POST['classification'];
+	header('Location: secteur_activite.php');
+
+}
+?>
+
+
+<!-- FOOTER -->
+<?php include('footer.php') ?>
+<!-- FOOTER -->
+
+

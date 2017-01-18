@@ -1,5 +1,6 @@
 <?php 
-    $BASE_URL = "http://" . $_SERVER['SERVER_NAME'];
+    $BASE_URL = "index.php";
+    session_start();
  ?>
 
 <!doctype html>
@@ -13,6 +14,8 @@
         <link rel="stylesheet" href="vendors/css/bootstrap.css">
         <link rel="stylesheet" href="vendors/css/bootstrap-theme.css">
         <link href='vendors/fonts/glyphicons-halflings-regular.ttf'>
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxFax30uYhybJ0iJoPzKdlH2_UHJvrEg4&libraries=places"></script>
+
     </head>
     <body id="layout">
         <header>
