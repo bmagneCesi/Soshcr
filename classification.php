@@ -38,3 +38,5 @@
 		</li>
 	</ul>
 </form>
+
+	<?php echo "test"; ?>
