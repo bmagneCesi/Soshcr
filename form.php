@@ -3,21 +3,20 @@
 <!-- HEADER -->
 
 <?php 
-	$data = array(); // données du restaurateur
-	
+
 	if ( empty($_POST) ) { // première page 
 		
 		include('ville.php');
 		
 	}else if ( isset($_POST['ville']) ){
 
-		$data['ville'] = $_POST['ville'];
+		$_SESSION['ville'] = $_POST['ville'];
 		include('classification.php');
 	
 	}else if ( isset($_POST['classification']) ){
-	
-		$data['classification'] = $_POST['classification'];
-		var_dump($data);
+
+		$_SESSION['classification'] = $_POST['classification'];
+		include('secteur_activite.php');
 	
 	}
 ?>

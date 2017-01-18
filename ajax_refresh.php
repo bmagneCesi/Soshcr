@@ -1,12 +1,9 @@
 <?php
 // PDO connect *********
-function connect() {
-    return new PDO('mysql:host=localhost;dbname=soschr', 'root', '', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION, PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
-}
-
+include("connexion.php");
 $pdo = connect();
 $keyword = '%'.$_POST['keyword'].'%';
-$sql = "SELECT * FROM ville WHERE ville_nom_reel LIKE (:keyword) ORDER BY id_ville ASC LIMIT 0, 10";
+$sql = "SELECT * FROM ville WHERE ville_nom_reel LIKE (:keyword) ORDER BY id_ville ASC LIMIT 0, 6";
 $query = $pdo->prepare($sql);
 $query->bindParam(':keyword', $keyword, PDO::PARAM_STR);
 $query->execute();
