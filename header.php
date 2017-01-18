@@ -1,5 +1,6 @@
 <?php 
-    $BASE_URL = "http://" . $_SERVER['SERVER_NAME'];
+    $BASE_URL = "index.php";
+    session_start();
  ?>
 
 <!doctype html>
