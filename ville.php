@@ -3,12 +3,14 @@
 	<form class="navbar-form" method="post">
 		<div class="input-group add-on" style="width:100%">
 
-		  <input class="form-control" placeholder="ville" style="height:35px" name="ville" id="country_id" onkeyup="autocomplet()">
-		  
-		  <div class="input-group-btn"  style="width:40px">
-		    <button class="btn btn-default" type="submit" style="height:35px"><i class="glyphicon glyphicon-search"></i></button>
-		  </div>
+		<input class="form-control" placeholder="ville" style="height:35px" name="ville" id="country_id" onkeyup="autocomplet()">
 
+		<div class="input-group-btn"  style="width:40px">
+		<button class="btn btn-default" id="seach-btn" type="submit" style="height:35px">
+			<i class="fa fa-search" aria-hidden="true"></i>
+		</button>
+		</div>
+		
 		</div>
 		<div class="input_container">
 			<ul id="country_list_id"></ul>
