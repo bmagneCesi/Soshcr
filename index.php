@@ -14,19 +14,18 @@
         <header>
             <div class="row1">
                 <a href="/"> <img id="logo" src="img/logo.png" alt=""> </a>
-                <a id="login" href="login.html">Espace candidat</a>    
-            </div>
-
-        	<div class="row2">
+                
                 <h1 id="main-title">Le recrutement</h1>
                 <h2 id="sub-title">en hôtellerie & restauration</h2>    
+
+                <a id="login" href="login.html">Espace candidat</a>    
             </div>
         </header>
 
         <div class="container">
-            <a href="ville.php"  id="container-btn">
+            <a href="form.php"  id="container-btn">
                 <span id="find-btn">TROUVER</span>
-                <p id="text-btn">l'employé idéal</p>
+                <p id="text-btn">l' employé idéal</p>
             </a>
         </div>
         

@@ -1,3 +1,7 @@
+<?php 
+    $BASE_URL = "http://" . $_SERVER['SERVER_NAME'];
+ ?>
+
 <!doctype html>
 <html>
     <head>
@@ -9,22 +13,17 @@
         <link rel="stylesheet" href="vendors/css/bootstrap.css">
         <link rel="stylesheet" href="vendors/css/bootstrap-theme.css">
         <link href='vendors/fonts/glyphicons-halflings-regular.ttf'>
-        <script type="text/javascript" src="js/jquery.min.js"></script>
-        <script type="text/javascript" src="js/script.js"></script>
     </head>
     <body id="layout">
         <header>
             <div class="row1">
-                <a href="/"> <img id="logo" src="img/logo.png" alt=""> </a>
-                <a id="login" href="login.html">Espace candidat</a>    
-            </div>
 
-        	<div class="row2">
-                <h1 id="main-title">Le recrutement</h1>
-                <h2 id="sub-title">en hôtellerie & restauration</h2>    
+                <a href="<?php echo $BASE_URL ?>"> <img id="logo" src="img/logo.png" alt=""> </a>
+                <a href="<?php echo $BASE_URL ?>">
+                    <h1 id="main-title">Le recrutement</h1>
+                    <h2 id="sub-title">en hôtellerie & restauration</h2>    
+                </a>
+                <a id="login" href="login.html">Espace candidat</a>    
+
             </div>
         </header>
-
-<?php
-    session_start();
-?>
