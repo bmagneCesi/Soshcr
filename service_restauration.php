@@ -13,26 +13,29 @@ while( $utilisateur = $utilisateurs->fetch() )
 //echo 'NomUser : '.$utilisateur->nom.'<br>';
 //echo 'Longitude : '.$utilisateur->longitude.'<br>';
 //echo 'Latitude : '.$utilisateur->latitude.'<br>';
-$long  =  $_SESSION['longitudeVille'];
-$lat  =  $_SESSION['latitudeVille'];
-$classification = $_SESSION['classification'];
-$formule="(6366*ACOS(COS(RADIANS($lat))*COS(RADIANS(latitude))*COS(RADIANS(longitude)-RADIANS($long))+SIN(RADIANS($lat))*SIN(RADIANS(latitude))))";
-$resultats=$pdo->query("
+    $long  =  $_SESSION['longitudeVille'];
+    $lat  =  $_SESSION['latitudeVille'];
+    $classification = $_SESSION['classification'];
+    $secteur = $_SESSION['secteur_activite'];
+    $formule="(6366*ACOS(COS(RADIANS($lat))*COS(RADIANS(latitude))*COS(RADIANS(longitude)-RADIANS($long))+SIN(RADIANS($lat))*SIN(RADIANS(latitude))))";
+    $resultats=$pdo->query("
 SELECT *, COUNT(*) as c, ".$formule." AS dist
-FROM utilisateur, poste_recherche_has_experience
+FROM utilisateur, poste_recherche_has_experience, poste_recherche
 WHERE utilisateur.id_utilisateur=poste_recherche_has_experience.utilisateur_id_utilisateur
+AND poste_recherche_has_experience.poste_recherche_id_poste_recherche=poste_recherche.id_poste_recherche
 AND ".$formule." < $utilisateur->nombre_kilometre
 AND etablissement_id_etablissement=$classification
+AND secteur_id_secteur=$secteur
 ORDER BY dist ASC");
-$resultats->setFetchMode(PDO::FETCH_OBJ);
-while( $resultat = $resultats->fetch() )
-{
+    $resultats->setFetchMode(PDO::FETCH_OBJ);
+    while( $resultat = $resultats->fetch() )
+    {
 
 
-if ($resultat->nom == $utilisateur->nom){
+        if ($resultat->nom == $utilisateur->nom){
 //echo 'UtilisateurBon : '.$resultat->nom.'<br>';
-echo "Le nombre de personne est de : ".$resultat->c;
-}
+            echo "Le nombre de personne est de : ".$resultat->c;
+        }
 
 
 }

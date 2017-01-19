@@ -17,6 +17,14 @@ while( $utilisateur = $utilisateurs->fetch() )
     $lat  =  $_SESSION['latitudeVille'];
     $classification = $_SESSION['classification'];
     $secteur = $_SESSION['secteur_activite'];
+    if(isset($_SESSION['poste_hotellerie'])){
+        $poste_recherche = $_SESSION['poste_hotellerie'];
+    }
+    else{
+        $poste_recherche = $_SESSION['poste_restauration'];
+    }
+    $contrat = $_SESSION['contrat'];
+
     $formule="(6366*ACOS(COS(RADIANS($lat))*COS(RADIANS(latitude))*COS(RADIANS(longitude)-RADIANS($long))+SIN(RADIANS($lat))*SIN(RADIANS(latitude))))";
     $resultats=$pdo->query("
 SELECT *, COUNT(*) as c, ".$formule." AS dist
@@ -26,6 +34,8 @@ AND poste_recherche_has_experience.poste_recherche_id_poste_recherche=poste_rech
 AND ".$formule." < $utilisateur->nombre_kilometre
 AND etablissement_id_etablissement=$classification
 AND secteur_id_secteur=$secteur
+AND id_poste_recherche=$poste_recherche
+AND contrat_id_contrat=$contrat
 ORDER BY dist ASC");
     $resultats->setFetchMode(PDO::FETCH_OBJ);
     while( $resultat = $resultats->fetch() )
@@ -36,54 +46,27 @@ ORDER BY dist ASC");
 //echo 'UtilisateurBon : '.$resultat->nom.'<br>';
             echo "Le nombre de personne est de : ".$resultat->c;
         }
-
-
+    }
 }
-}
-$utilisateurs->closeCursor();
+?>
+<?php
+if ( isset($_POST['experience']) ){
 
-
-
-
-
-
-
-
-if ( isset($_POST['poste_restauration']) ){
-
-$_SESSION['poste_restauration'] = $_POST['poste_restauration'];
-header('Location: contrat.php');
+$_SESSION['experience'] = $_POST['experience'];
+header('Location: experience.php');
 //session_destroy();
 //print_r($_SESSION);
 
 }
 ?>
 
-<ul>
-    <?php
-    $postes=$pdo->query("SELECT * FROM poste_recherche WHERE secteur_id_secteur=".$_SESSION['secteur_activite']." AND service_id_service=".$_SESSION['service_restauration']);
-    $postes->setFetchMode(PDO::FETCH_OBJ);
-    while( $poste = $postes->fetch() ) {
-        ?>
-        <li>
-            <form method="post">
-                <button>
-                    <img src="img/1-stars.png" alt="">
-                    <p><?php echo $poste->libelle?></p>
-                </button>
-                <input type="hidden" value="<?php echo $poste->id_poste_recherche?>" name="poste_restauration">
-            </form>
-        </li>
-        <?php
-    }
-    ?>
-</ul>
-</form>
-
-<input type="button" value="Retour" onclick="document.location.href='service_restauration.php';">
 
 
 
+
+
+
+    <input type="button" value="Retour" onclick="document.location.href='contrat.php';">
 
 
 <!-- FOOTER -->
