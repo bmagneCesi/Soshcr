@@ -28,12 +28,22 @@ a{text-decoration: none!important; color:inherit!important;}
  header #login-icon{font-size: 30px}
 
 @media only screen 
-and (max-width : 1024px) 
+and (min-width : 768px) {
+   #layout header{background-image:url(../img/layout-up.svg);background-repeat:no-repeat;background-size:cover;height: 200px;position: relative;}
+   #layout header .title{width:250px;}
+   #accueil header{height: 250px}
+   #accueil header .title{margin: 20px auto;width: 300px}
+   header #login{margin: 20px 20px!important}
+   header #logo{margin: 20px 0px 0px!important}
+}
+
+@media only screen 
+and (max-width : 767px) 
 and (orientation : portrait) {
    #layout header{background-image:url(../img/layout-up.svg);background-repeat:no-repeat;background-size:cover;height: 200px;position: relative;}
    #layout header .title{width:250px;}
-   header{height: 180px}
-   header .title{margin: 0px auto;width: 250px}
+   #accueil header{height: 250px}
+   #accueil header .title{margin: 0px auto;width: 220px}
    header #login{margin: 20px 0px 0px!important}
    header #logo{margin: 20px 0px 0px!important}
 }
@@ -48,12 +58,21 @@ and (orientation : portrait) {
  .container #find-btn:hover{opacity: 0.7}
 
 @media only screen 
-and (max-width : 1024px) 
-and (orientation : portrait) {
+and (min-width : 768px) {
 
-   .container #container-btn{background-size: 205px!important;background-position: center -5px!important}
-   .container #find-btn{width: 200px!important;font-size: 30px!important;background-size: 40px!important}
-   .container #text-btn{bottom: 20px!important;font-size: 50px!important}
+  #accueil .container #container-btn{background-size: 205px!important;background-position: center -5px!important;margin:150px auto;}
+  #accueil .container #find-btn{width: 200px!important;font-size: 30px!important;background-size: 40px!important}
+  #accueil .container #text-btn{bottom: 20px!important;font-size: 50px!important}
+
+}
+
+@media only screen 
+and (max-width : 767px) 
+and (orientation : portrait) {
+  
+  #accueil .container #container-btn{background-size: 205px!important;background-position: center -5px!important;margin:0 auto;}
+  #accueil .container #find-btn{width: 200px!important;font-size: 30px!important;background-size: 40px!important}
+  #accueil .container #text-btn{bottom: 20px!important;font-size: 50px!important}
 
 }
 
