@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="vendors/bootstrap/bootstrap-theme.css">
         <link rel="stylesheet" href="vendors/font-awesome/css/font-awesome.min.css">
     </head>
-    <body>
+    <body id="accueil">
         
         <header>
 
@@ -20,24 +20,18 @@
             </div> 
             
             <!-- Title desktop -->
-             <div class="col-xs-8 text-center hidden-xs ">
+             <div class="col-xs-8 text-center">
                 <img class="title" src="img/title.png" class="img-responsive">  
             </div>
             <!-- Title desktop -->
 
-             <div class="col-xs-2 col-xs-offset-8 col-sm-offset-0">
+             <div class="col-xs-2">
                 <a id="login" href="login.html">
-                    <span id="login-text" class="hidden-xs">Espace candidat</span>
-                    <span id="login-icon" class="hidden-sm hidden-md hidden-lg img-responsive"><i class="fa fa-user-circle-o" aria-hidden="true"></i></span>
+                    <span id="login-text" class="hidden-xs hidden-sm">Espace candidat</span>
+                    <span id="login-icon" class="hidden-md hidden-lg img-responsive"><i class="fa fa-user-circle-o" aria-hidden="true"></i></span>
                 </a>  
             </div>  
 
-            <!-- Title phone -->
-            <div class="clearfix"></div>
-             <div class="col-xs-12 text-center hidden-sm hidden-md hidden-lg">
-                <img class="title" src="img/title.png" class="img-responsive">  
-            </div>
-            <!-- Title phone -->
 
         </header>
 
