@@ -22,7 +22,7 @@
         <header>
 
             <div class="col-xs-2">
-                <a href="index.php"> <img id="logo" class="img-responsive" src="img/logo.png" alt=""> </a>
+                <a href="index.php" id="logo"> <img class="img-responsive" src="img/logo.png" alt=""> </a>
             </div> 
             
             <!-- Title desktop -->
@@ -32,7 +32,7 @@
             <!-- Title desktop -->
 
              <div class="col-xs-2">
-                <a id="login" href="login.html">
+                <a id="login" href="login.php">
                     <span id="login-text" class="hidden-xs hidden-sm">Espace candidat</span>
                     <span id="login-icon" class="hidden-md hidden-lg img-responsive"><i class="fa fa-user-circle-o" aria-hidden="true"></i></span>
                 </a>  
