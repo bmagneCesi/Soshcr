@@ -22,7 +22,7 @@
         <header>
 
             <div class="col-xs-2">
-                <a href="/"> <img id="logo" class="img-responsive" src="img/logo.png" alt=""> </a>
+                <a href="index.php"> <img id="logo" class="img-responsive" src="img/logo.png" alt=""> </a>
             </div> 
             
             <!-- Title desktop -->

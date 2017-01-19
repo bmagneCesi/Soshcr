@@ -37,8 +37,49 @@
 // première page
 if ( isset($_POST['ville']) ) {
 
+	$geocoder = 'http://maps.googleapis.com/maps/api/geocode/json?address=%s&sensor=false';
+	$query = sprintf($geocoder, urlencode(utf8_encode($_POST['ville'])));
+	$result = json_decode(file_get_contents($query));
+	$json = $result->results[0];
+	$lat = $json->geometry->location->lat;
+	$long = $json->geometry->location->lng;
+	echo $lat;
+	echo $long;
+
 	$_SESSION['ville'] = $_POST['ville'];
-	header('Location: classification.php');
+	$_SESSION['longitudeVille'] = $long;
+	$_SESSION['latitudeVille'] = $lat;
+
+	include("connexion.php");
+	$pdo = connect();
+	$utilisateurs=$pdo->query("SELECT * FROM utilisateur");
+	$utilisateurs->setFetchMode(PDO::FETCH_OBJ);
+	while( $utilisateur = $utilisateurs->fetch() )
+	{
+		//echo 'NomUser : '.$utilisateur->nom.'<br>';
+		//echo 'Longitude : '.$utilisateur->longitude.'<br>';
+		//echo 'Latitude : '.$utilisateur->latitude.'<br>';
+		$formule="(6366*ACOS(COS(RADIANS($lat))*COS(RADIANS(latitude))*COS(RADIANS(longitude)-RADIANS($long))+SIN(RADIANS($lat))*SIN(RADIANS(latitude))))";
+		$resultats=$pdo->query("SELECT *, COUNT(*) as c, ".$formule." AS dist FROM utilisateur WHERE ".$formule." < $utilisateur->nombre_kilometre ORDER BY dist ASC");
+		$resultats->setFetchMode(PDO::FETCH_OBJ);
+		while( $resultat = $resultats->fetch() )
+		{
+
+
+			if ($resultat->nom == $utilisateur->nom){
+				//echo 'UtilisateurBon : '.$resultat->nom.'<br>';
+				echo "Le nombre de personne est de : ".$resultat->c;
+			}
+
+		}
+	}
+	$utilisateurs->closeCursor();
+
+
+
+
+
+	//header('Location: classification.php');
 }
 
 ?>
