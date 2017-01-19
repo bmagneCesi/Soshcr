@@ -20,25 +20,25 @@ a{text-decoration: none!important; color:inherit!important;}
  					HEADER 					
 /***********************************************/
  header{background-image:url(../img/bck-up1.svg);background-repeat:no-repeat;background-size:cover;height: 280px;position: relative;}
- #layout header{background-image:url(../img/layout-up1.svg);background-repeat:no-repeat;background-size:cover;height: 280px;position: relative;}
+ #layout header{background-image:url(../img/layout-up1.svg);background-repeat:no-repeat;background-size:cover; height: 250px;background-position: center -50px;position: relative;}
  #layout header .title{width: 300px}
  header #login{font-family: "Stellar";text-decoration: underline!important;color: #fff!important;float: right;margin:20px;text-transform: uppercase;}
- header .title{margin: 50px auto;width: 500px}
+ header .title{margin: 30px auto;width: 500px}
  header #logo{width:60px;margin-top: 20px}
  header #login-icon{font-size: 30px}
 
+
 @media only screen 
-and (min-width : 768px) {
-   #layout header, #accueil header{height: 200px;}
+and (min-device-width: 768px) and (max-device-width: 1024px) {
+   #layout header, #accueil header{height: 200px;background-position: initial;}
    #layout header .title, #accueil header .title{margin:20px auto;width:300px;}
    header #login{margin: 20px 20px!important}
    header #logo{margin: 20px 0px 0px!important}
 }
 
 @media only screen 
-and (max-width : 767px) 
-and (orientation : portrait) {
-   #layout header, #accueil header{height: 110px;}
+and (max-width : 767px) {
+   #layout header, #accueil header{height: 110px; background-position: initial;}
    #layout header .title, #accueil header .title{width:220px;margin: 0 auto}
    header #login{margin: 20px 0px 0px!important}
    header #logo{margin: 20px 0px 0px!important}
@@ -54,7 +54,7 @@ and (orientation : portrait) {
  .container #find-btn:hover{opacity: 0.7}
 
 @media only screen 
-and (min-width : 768px) {
+and (min-device-width: 768px) and (max-device-width: 1024px) {
 
   #accueil .container #container-btn{background-size: 205px!important;background-position: center -5px!important;margin:200px auto;}
   #accueil .container #find-btn{width: 200px!important;font-size: 30px!important;background-size: 40px!important}
@@ -63,8 +63,7 @@ and (min-width : 768px) {
 }
 
 @media only screen 
-and (max-width : 767px) 
-and (orientation : portrait) {
+and (max-width : 767px) {
   
   #accueil .container #container-btn{background-size: 205px!important;background-position: center -5px!important;margin:100px auto;}
   #accueil .container #find-btn{width: 200px!important;font-size: 30px!important;background-size: 40px!important}
@@ -80,8 +79,7 @@ footer ul{margin: 65px auto 0px;transform:rotate(-2.5deg);font-size: 20px}
 footer ul li{display: inline-block;list-style-type: none;margin:0 35px;color: #fff;font-family: "Stellar";}
 
 @media only screen 
-and (max-width : 767px) 
-and (orientation : portrait) {
+and (max-width : 767px) {
 
    footer ul{margin: 95px auto 0px;font-size: 15px;padding: 0}
    footer ul li{margin:0 9px;}
@@ -89,7 +87,7 @@ and (orientation : portrait) {
 }
 
 @media only screen 
-and (min-width : 768px) {
+and (min-device-width: 768px) and (max-device-width: 1024px) {
 
    footer ul{margin: 95px auto 0px;font-size: 15px;padding: 0}
    footer ul li{margin:0 9px;}
@@ -105,15 +103,14 @@ and (min-width : 768px) {
 #seach-btn{background: none;margin-left: -3px}
 .hdpi.pac-logo:after{background:none!important;display: none} /* hide google powered */
 @media only screen 
-and (max-width : 767px) 
-and (orientation : portrait) {
+and (max-width : 767px) {
 
   .form{margin-top: 150px}
 
 }
 
 @media only screen 
-and (min-width : 768px) {
+and (min-device-width: 768px) and (max-device-width: 1024px) {
 
   .form{margin-top: 250px}
 
@@ -129,8 +126,7 @@ and (min-width : 768px) {
 #country_list_id li:hover{background-color:#eee;}
 
 @media only screen 
-and (max-width : 767px) 
-and (orientation : portrait) {
+and (max-width : 767px) {
   
   .title-heading{font-size: 20px}  
 

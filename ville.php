@@ -2,7 +2,7 @@
 <?php include('header.php') ?>
 <!-- HEADER -->
 
-<div class="form col-xs-12 col-sm-10 col-sm-offset-1 text-center">
+<div class="form col-xs-12 col-sm-10 col-sm-offset-1 col-md-4 col-md-offset-4 text-center">
     <h3 class="title-heading">Où est situé votre établissement ?</h3>
 	<form class="navbar-form" method="post">
 		<div class="input-group add-on" style="width:100%">
