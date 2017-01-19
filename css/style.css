@@ -19,31 +19,27 @@ a{text-decoration: none!important; color:inherit!important;}
 /***********************************************
  					HEADER 					
 /***********************************************/
- header{background-image:url(../img/bck-up.svg);background-repeat:no-repeat;background-size:cover;height: 280px;position: relative;}
- #layout header{background-image:url(../img/layout-up.svg);background-repeat:no-repeat;background-size:cover;height: 280px;position: relative;}
+ header{background-image:url(../img/bck-up1.svg);background-repeat:no-repeat;background-size:cover;height: 280px;position: relative;}
+ #layout header{background-image:url(../img/layout-up1.svg);background-repeat:no-repeat;background-size:cover; height: 250px;background-position: center -50px;position: relative;}
  #layout header .title{width: 300px}
  header #login{font-family: "Stellar";text-decoration: underline!important;color: #fff!important;float: right;margin:20px;text-transform: uppercase;}
- header .title{margin: 50px auto;width: 500px}
+ header .title{margin: 30px auto;width: 500px}
  header #logo{width:60px;margin-top: 20px}
  header #login-icon{font-size: 30px}
 
+
 @media only screen 
-and (min-width : 768px) {
-   #layout header{background-image:url(../img/layout-up.svg);background-repeat:no-repeat;background-size:cover;height: 200px;position: relative;}
-   #layout header .title{width:250px;}
-   #accueil header{height: 250px}
-   #accueil header .title{margin: 20px auto;width: 300px}
+and (min-device-width: 768px) and (max-device-width: 1024px) {
+   #layout header, #accueil header{height: 200px;background-position: initial;}
+   #layout header .title, #accueil header .title{margin:20px auto;width:300px;}
    header #login{margin: 20px 20px!important}
    header #logo{margin: 20px 0px 0px!important}
 }
 
 @media only screen 
-and (max-width : 767px) 
-and (orientation : portrait) {
-   #layout header{background-image:url(../img/layout-up.svg);background-repeat:no-repeat;background-size:cover;height: 200px;position: relative;}
-   #layout header .title{width:250px;}
-   #accueil header{height: 250px}
-   #accueil header .title{margin: 0px auto;width: 220px}
+and (max-width : 767px) {
+   #layout header, #accueil header{height: 110px; background-position: initial;}
+   #layout header .title, #accueil header .title{width:220px;margin: 0 auto}
    header #login{margin: 20px 0px 0px!important}
    header #logo{margin: 20px 0px 0px!important}
 }
@@ -58,19 +54,18 @@ and (orientation : portrait) {
  .container #find-btn:hover{opacity: 0.7}
 
 @media only screen 
-and (min-width : 768px) {
+and (min-device-width: 768px) and (max-device-width: 1024px) {
 
-  #accueil .container #container-btn{background-size: 205px!important;background-position: center -5px!important;margin:150px auto;}
+  #accueil .container #container-btn{background-size: 205px!important;background-position: center -5px!important;margin:200px auto;}
   #accueil .container #find-btn{width: 200px!important;font-size: 30px!important;background-size: 40px!important}
   #accueil .container #text-btn{bottom: 20px!important;font-size: 50px!important}
 
 }
 
 @media only screen 
-and (max-width : 767px) 
-and (orientation : portrait) {
+and (max-width : 767px) {
   
-  #accueil .container #container-btn{background-size: 205px!important;background-position: center -5px!important;margin:0 auto;}
+  #accueil .container #container-btn{background-size: 205px!important;background-position: center -5px!important;margin:100px auto;}
   #accueil .container #find-btn{width: 200px!important;font-size: 30px!important;background-size: 40px!important}
   #accueil .container #text-btn{bottom: 20px!important;font-size: 50px!important}
 
@@ -84,8 +79,15 @@ footer ul{margin: 65px auto 0px;transform:rotate(-2.5deg);font-size: 20px}
 footer ul li{display: inline-block;list-style-type: none;margin:0 35px;color: #fff;font-family: "Stellar";}
 
 @media only screen 
-and (max-width : 1024px) 
-and (orientation : portrait) {
+and (max-width : 767px) {
+
+   footer ul{margin: 95px auto 0px;font-size: 15px;padding: 0}
+   footer ul li{margin:0 9px;}
+
+}
+
+@media only screen 
+and (min-device-width: 768px) and (max-device-width: 1024px) {
 
    footer ul{margin: 95px auto 0px;font-size: 15px;padding: 0}
    footer ul li{margin:0 9px;}
@@ -96,17 +98,25 @@ and (orientation : portrait) {
 /***********************************************
  					FORM 					
 /***********************************************/
-.form{text-align: center;margin-top: 100px}
+.form{text-align: center;margin-top: 80px}
 .title-heading{color: #394076;font-family: "Stellar"}
 #seach-btn{background: none;margin-left: -3px}
-.hdpi.pac-logo:after{background:none!important;display: none}
+.hdpi.pac-logo:after{background:none!important;display: none} /* hide google powered */
 @media only screen 
-and (max-width : 1024px) 
-and (orientation : portrait) {
+and (max-width : 767px) {
 
-  .form{margin-top: 50px}
+  .form{margin-top: 150px}
 
 }
+
+@media only screen 
+and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+  .form{margin-top: 250px}
+
+}
+
+
 
 /***********************************************
  					VILLE 					
@@ -114,3 +124,10 @@ and (orientation : portrait) {
 #country_list_id{display:none;list-style-type: none;text-align: left;border: 1px solid #CCC;border-radius: 2px;padding: 0px;width: calc(100% - 40px);width: -webkit-calc(100% - 40px);width: -moz-calc(100% - 40px);width: -o-calc(100% - 40px);}
 #country_list_id li{padding: 3px 10px}
 #country_list_id li:hover{background-color:#eee;}
+
+@media only screen 
+and (max-width : 767px) {
+  
+  .title-heading{font-size: 20px}  
+
+}
