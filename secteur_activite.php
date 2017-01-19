@@ -2,6 +2,10 @@
 <?php include('header.php') ?>
 <!-- HEADER -->
 <?php
+unset($_SESSION["secteur_activite"]);
+unset($_SESSION["poste_hotellerie"]);
+unset($_SESSION["poste_restauration"]);
+print_r($_SESSION);
 include("connexion.php");
 $pdo = connect();
 
@@ -46,9 +50,18 @@ $utilisateurs->closeCursor();
 
 
 if ( isset($_POST['secteur_activite']) ){
-
     $_SESSION['secteur_activite'] = $_POST['secteur_activite'];
-    header('Location: poste.php');
+    unset($_SESSION['poste_hotellerie']);
+    unset($_SESSION['service_restauration']);
+
+    if ($_SESSION['secteur_activite']==1){
+
+        header('Location: poste_hotellerie.php');
+    }
+    elseif ($_SESSION['secteur_activite']==2){
+        header('Location: service_restauration.php');
+    }
+
     //session_destroy();
     //print_r($_SESSION);
 

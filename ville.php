@@ -33,7 +33,8 @@
 
 
 <?php
-
+session_destroy();
+session_start();
 // première page
 if ( isset($_POST['ville']) ) {
 
