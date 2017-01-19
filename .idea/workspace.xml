@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="38a6af0a-3f2b-4980-9d39-34a0c2fbd215" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classification.php" afterPath="$PROJECT_DIR$/classification.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/secteur_activite.php" afterPath="$PROJECT_DIR$/secteur_activite.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ville.php" afterPath="$PROJECT_DIR$/ville.php" />
     </list>
     <ignored path="Soshcr.iws" />
@@ -25,15 +26,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ville.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ville.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ville.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="62" column="55" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="55" />
-              <folding>
-                <marker date="1484815117000" expanded="true" signature="1623:1648" ph="SELECT nom F... utilisateur" />
-                <marker date="1484815117000" expanded="true" signature="2514:2515" ph="SELECT id_st... " />
-              </folding>
+            <state relative-caret-position="420">
+              <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -41,8 +39,8 @@
       <file leaf-file-name="form.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="63" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
+            <state relative-caret-position="270">
+              <caret line="18" column="40" selection-start-line="15" selection-start-column="10" selection-end-line="18" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -51,9 +49,23 @@
       <file leaf-file-name="classification.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classification.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="48" selection-end-column="17" />
-              <folding />
+            <state relative-caret-position="300">
+              <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="31" />
+              <folding>
+                <marker date="1484815871000" expanded="true" signature="142:167" ph="SELECT * FRO... utilisateur" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="secteur_activite.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/secteur_activite.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="141" selection-start-line="22" selection-start-column="141" selection-end-line="22" selection-end-column="141" />
+              <folding>
+                <marker date="1484817380000" expanded="true" signature="173:198" ph="SELECT * FRO... utilisateur" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -117,12 +129,12 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/connexion.php" />
         <option value="$PROJECT_DIR$/ajax_refresh.php" />
-        <option value="$PROJECT_DIR$/secteur_activite.php" />
-        <option value="$PROJECT_DIR$/classification.php" />
         <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/form.php" />
         <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/classification.php" />
         <option value="$PROJECT_DIR$/ville.php" />
+        <option value="$PROJECT_DIR$/secteur_activite.php" />
       </list>
     </option>
   </component>
@@ -306,7 +318,7 @@
       <workItem from="1484728170999" duration="5514000" />
       <workItem from="1484736069893" duration="8597000" />
       <workItem from="1484773728458" duration="3664000" />
-      <workItem from="1484814191023" duration="959000" />
+      <workItem from="1484814191023" duration="3190000" />
     </task>
     <task id="LOCAL-00001" summary="bdd compléte pour le projet">
       <created>1484667330774</created>
@@ -350,11 +362,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484751172261</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Géolocalisation, nbKilometre">
+      <created>1484815219245</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1484815219245</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29058000" />
+    <option name="totallyTimeSpent" value="31289000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="804" extended-state="6" />
@@ -434,7 +453,8 @@
     <MESSAGE value="jquerry min" />
     <MESSAGE value="test" />
     <MESSAGE value="modification session, google api" />
-    <option name="LAST_COMMIT_MESSAGE" value="modification session, google api" />
+    <MESSAGE value="Géolocalisation, nbKilometre" />
+    <option name="LAST_COMMIT_MESSAGE" value="Géolocalisation, nbKilometre" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -453,7 +473,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="39" selection-end-column="7" />
-          <folding />
+          <folding>
+            <marker date="1484815871000" expanded="true" signature="142:167" ph="SELECT * FRO... utilisateur" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -514,10 +536,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-          <folding>
-            <marker date="1484815117000" expanded="true" signature="1623:1648" ph="SELECT nom F... utilisateur" />
-            <marker date="1484815117000" expanded="true" signature="2514:2515" ph="SELECT id_st... " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -720,14 +739,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/secteur_activite.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/connexion.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -744,26 +755,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="63" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classification.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="48" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -778,11 +773,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ville.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="62" column="55" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="55" />
+        <state relative-caret-position="420">
+          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="40" selection-start-line="15" selection-start-column="10" selection-end-line="18" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classification.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="31" />
           <folding>
-            <marker date="1484815117000" expanded="true" signature="1623:1648" ph="SELECT nom F... utilisateur" />
-            <marker date="1484815117000" expanded="true" signature="2514:2515" ph="SELECT id_st... " />
+            <marker date="1484815871000" expanded="true" signature="142:167" ph="SELECT * FRO... utilisateur" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/secteur_activite.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="141" selection-start-line="22" selection-start-column="141" selection-end-line="22" selection-end-column="141" />
+          <folding>
+            <marker date="1484817380000" expanded="true" signature="173:198" ph="SELECT * FRO... utilisateur" />
           </folding>
         </state>
       </provider>
