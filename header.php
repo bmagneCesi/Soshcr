@@ -12,9 +12,9 @@
         <title>Restauration, recrutement</title>
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="vendors/bootstrap/bootstrap.css">
-        <link rel="stylesheet" href="vendors/bootstrap/bootstrap.css">
         <link rel="stylesheet" href="vendors/bootstrap/bootstrap-theme.css">
         <link rel="stylesheet" href="vendors/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="datepicker/css/bootstrap-datepicker.min.css">
         <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxFax30uYhybJ0iJoPzKdlH2_UHJvrEg4&libraries=places"></script>
     </head>
     <body id="layout">

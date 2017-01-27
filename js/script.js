@@ -31,3 +31,11 @@ $(document).ready(function(){
     });
 
 });
+
+$('#sandbox-container .input-daterange').datepicker({
+    todayBtn: "linked",
+    clearBtn: true,
+    language: "fr",
+    keyboardNavigation: false,
+    forceParse: false
+});

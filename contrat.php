@@ -2,6 +2,11 @@
 <?php include('header.php') ?>
 <!-- HEADER -->
 <?php
+unset($_SESSION["contrat"]);
+unset($_SESSION["duree_contrat"]);
+unset($_SESSION["experience"]);
+unset($_SESSION["cursus_scolaire"]);
+unset($_SESSION["duree_stage"]);
 print_r($_SESSION);
 include("connexion.php");
 $pdo = connect();
@@ -49,9 +54,20 @@ ORDER BY dist ASC");
 ?>
 <?php
 if ( isset($_POST['contrat']) ){
+    $_SESSION['contrat'] = $_POST['contrat'];
+    if( $_POST['contrat'] == 2 || $_POST['contrat'] == 3  ){
+        header('Location: duree_contrat.php');
+    }
+    elseif ($_POST['contrat'] == 4){
+        header('Location: experience.php');
+    }
+    elseif ($_POST['contrat'] == 5){
+        header('Location: cursus_scolaire.php');
+    }
+    elseif ($_POST['contrat'] == 6){
+        header('Location: duree_stage.php');
+    }
 
-$_SESSION['contrat'] = $_POST['contrat'];
-header('Location: experience.php');
 //session_destroy();
 //print_r($_SESSION);
 

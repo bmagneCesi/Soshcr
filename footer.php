@@ -9,6 +9,7 @@
         <script type="text/javascript" src="vendors/jquery/jquery-3.1.1.min.js"></script>
         <script type="text/javascript" src="vendors/jquery/jquery.min.js"></script>
         <script type="text/javascript" src="vendors/bootstrap/bootstrap.min.js"></script>
+        <script type="text/javascript" src="datepicker/js/bootstrap-datepicker.min.js"></script>
         <script type="text/javascript" src="js/script.js"></script>
     </body>
 </html>

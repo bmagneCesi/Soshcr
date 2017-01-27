@@ -1,13 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38a6af0a-3f2b-4980-9d39-34a0c2fbd215" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/experience.php" />
+    <list default="true" id="38a6af0a-3f2b-4980-9d39-34a0c2fbd215" name="Default" comment="Formulaire -&gt; Experience">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anglais.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cursus_scolaire.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/date.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/css/bootstrap-datepicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/css/bootstrap-datepicker.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/css/bootstrap-datepicker.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/css/bootstrap-datepicker.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/css/bootstrap-datepicker.standalone.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/css/bootstrap-datepicker.standalone.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/css/bootstrap-datepicker.standalone.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/css/bootstrap-datepicker.standalone.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/css/bootstrap-datepicker3.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/css/bootstrap-datepicker3.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/css/bootstrap-datepicker3.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/css/bootstrap-datepicker3.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/css/bootstrap-datepicker3.standalone.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/css/bootstrap-datepicker3.standalone.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/css/bootstrap-datepicker3.standalone.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/css/bootstrap-datepicker3.standalone.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/js/bootstrap-datepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/js/bootstrap-datepicker.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.ar.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.az.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.bg.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.bs.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.ca.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.cs.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.cy.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.da.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.de.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.el.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.en-AU.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.en-GB.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.eo.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.es.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.et.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.eu.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.fa.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.fi.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.fo.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.fr-CH.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.fr.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.gl.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.he.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.hr.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.hu.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.hy.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.id.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.is.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.it-CH.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.it.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.ja.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.ka.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.kh.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.kk.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.ko.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.kr.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.lt.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.lv.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.me.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.mk.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.mn.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.ms.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.nb.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.nl-BE.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.nl.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.no.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.pl.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.pt-BR.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.pt.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.ro.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.rs-latin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.rs.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.ru.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.sk.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.sl.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.sq.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.sr-latin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.sr.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.sv.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.sw.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.th.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.tr.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.uk.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.vi.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.zh-CN.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/locales/bootstrap-datepicker.zh-TW.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duree_contrat.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duree_stage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/formation_minimum.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resultats_recherche.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/soschr_OLD.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Soshcr.iml" afterPath="$PROJECT_DIR$/.idea/Soshcr.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrat.php" afterPath="$PROJECT_DIR$/contrat.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/poste_hotellerie.php" afterPath="$PROJECT_DIR$/poste_hotellerie.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/poste_restauration.php" afterPath="$PROJECT_DIR$/poste_restauration.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service_restauration.php" afterPath="$PROJECT_DIR$/service_restauration.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experience.php" afterPath="$PROJECT_DIR$/experience.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.php" afterPath="$PROJECT_DIR$/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/bck-up1.svg" afterPath="$PROJECT_DIR$/img/bck-up1.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/layout-up1.svg" afterPath="$PROJECT_DIR$/img/layout-up1.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/soschr.sql" afterPath="$PROJECT_DIR$/soschr.sql" />
     </list>
     <ignored path="Soshcr.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,48 +128,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ville.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ville.php">
+      <file leaf-file-name="contrat.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contrat.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="classification.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classification.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+            <state relative-caret-position="270">
+              <caret line="93" column="6" selection-start-line="93" selection-start-column="6" selection-end-line="93" selection-end-column="6" />
               <folding>
-                <marker date="1484820688000" expanded="true" signature="142:167" ph="SELECT * FRO... utilisateur" />
-                <marker date="1484820688000" expanded="true" signature="1290:1317" ph="SELECT * FRO... etablissement" />
+                <marker date="1485419678000" expanded="true" signature="327:352" ph="SELECT * FRO... utilisateur" />
+                <marker date="1485419678000" expanded="true" signature="2497:2557" ph="SELECT * FRO... contrat" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="secteur_activite.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/secteur_activite.php">
+      <file leaf-file-name="experience.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/experience.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1335">
-              <caret line="89" column="7" selection-start-line="89" selection-start-column="7" selection-end-line="89" selection-end-column="7" />
+            <state relative-caret-position="335">
+              <caret line="125" column="13" selection-start-line="125" selection-start-column="13" selection-end-line="125" selection-end-column="13" />
               <folding>
-                <marker date="1484832160000" expanded="true" signature="277:302" ph="SELECT * FRO... utilisateur" />
-                <marker date="1484832160000" expanded="true" signature="2053:2074" ph="SELECT * FRO... secteur" />
+                <marker date="1485438681000" expanded="true" signature="222:247" ph="SELECT * FRO... utilisateur" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/footer.php">
+      <file leaf-file-name="anglais.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/anglais.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="270">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="118" selection-end-column="5" />
+              <folding>
+                <marker date="1485526968000" expanded="true" signature="242:267" ph="SELECT * FRO... utilisateur" />
+                <marker date="1485526968000" expanded="true" signature="4809:4834" ph="..." />
+                <marker date="1485526968000" expanded="true" signature="4847:4868" ph="SELECT * FRO... anglais" />
+                <marker date="1485526968000" expanded="true" signature="4981:5007" ph="..." />
+                <marker date="1485526968000" expanded="true" signature="5039:5069" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cursus_scolaire.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cursus_scolaire.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="53" selection-end-column="20" />
+              <folding>
+                <marker date="1485517221000" expanded="true" signature="227:252" ph="SELECT * FRO... utilisateur" />
+                <marker date="1485517221000" expanded="true" signature="2213:2244" ph="..." />
+                <marker date="1485517221000" expanded="true" signature="2222:2244" ph="..." />
+                <marker date="1485517221000" expanded="true" signature="2272:2298" ph="..." />
+                <marker date="1485517221000" expanded="true" signature="2530:2559" ph="SELECT * FRO... cursus_scolaire" />
+                <marker date="1485517221000" expanded="true" signature="2699:2725" ph="..." />
+                <marker date="1485517221000" expanded="true" signature="2757:2787" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="duree_contrat.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/duree_contrat.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+              <folding>
+                <marker date="1485522641000" expanded="true" signature="196:221" ph="SELECT * FRO... utilisateur" />
+                <marker date="1485522641000" expanded="true" signature="2284:2336" ph="SELECT * FRO... type_contrat" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -77,8 +203,8 @@
       <file leaf-file-name="poste_hotellerie.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/poste_hotellerie.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+            <state relative-caret-position="915">
+              <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="79" selection-end-column="5" />
               <folding>
                 <marker date="1484837967000" expanded="true" signature="161:186" ph="SELECT * FRO... utilisateur" />
                 <marker date="1484837967000" expanded="true" signature="1740:1795" ph="SELECT * FRO... poste_recherche" />
@@ -87,74 +213,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="service_restauration.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service_restauration.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-              <folding>
-                <marker date="1484836648000" expanded="true" signature="161:186" ph="SELECT * FRO... utilisateur" />
-                <marker date="1484836648000" expanded="true" signature="1790:1887" ph="..." />
-                <marker date="1484836648000" expanded="true" signature="1829:1876" ph="SELECT * FRO... service" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="poste_restauration.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/poste_restauration.php">
+      <file leaf-file-name="formation_minimum.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/formation_minimum.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="23" column="90" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="90" />
+              <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
               <folding>
-                <marker date="1484837359000" expanded="true" signature="161:186" ph="SELECT * FRO... utilisateur" />
-                <marker date="1484837359000" expanded="true" signature="1810:1865" ph="SELECT * FRO... poste_recherche" />
-                <marker date="1484837359000" expanded="true" signature="1810:1866" ph="SELECT * FRO... poste_recherche" />
-                <marker date="1484837359000" expanded="true" signature="1810:1867" ph="SELECT * FRO... poste_recherche" />
-                <marker date="1484837359000" expanded="true" signature="1810:1898" ph="SELECT * FRO... poste_recherche" />
-                <marker date="1484837359000" expanded="true" signature="1810:1922" ph="SELECT * FRO... poste_recherche" />
-                <marker date="1484837359000" expanded="true" signature="2066:2092" ph="..." />
-                <marker date="1484837359000" expanded="true" signature="2124:2154" ph="..." />
+                <marker date="1485511591000" expanded="true" signature="200:225" ph="SELECT * FRO... utilisateur" />
+                <marker date="1485511591000" expanded="true" signature="2238:2266" ph="..." />
+                <marker date="1485511591000" expanded="true" signature="2279:2302" ph="SELECT * FRO... formation" />
+                <marker date="1485511591000" expanded="true" signature="2424:2450" ph="..." />
+                <marker date="1485511591000" expanded="true" signature="2482:2512" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contrat.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contrat.php">
+      <file leaf-file-name="duree_stage.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/duree_stage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
-              <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="20" />
+            <state relative-caret-position="390">
+              <caret line="40" column="20" selection-start-line="31" selection-start-column="0" selection-end-line="40" selection-end-column="20" />
               <folding>
-                <marker date="1484838960000" expanded="true" signature="161:186" ph="SELECT * FRO... utilisateur" />
-                <marker date="1484838960000" expanded="true" signature="1982:2003" ph="SELECT * FRO... poste_recherche" />
-                <marker date="1484838960000" expanded="true" signature="1982:2021" ph="SELECT * FRO... contrat" />
-                <marker date="1484838960000" expanded="true" signature="1982:2042" ph="SELECT * FRO... contrat" />
-                <marker date="1484838960000" expanded="true" signature="2158:2184" ph="..." />
-                <marker date="1484838960000" expanded="true" signature="2216:2246" ph="..." />
+                <marker date="1485462221000" expanded="true" signature="231:256" ph="SELECT * FRO... utilisateur" />
+                <marker date="1485462221000" expanded="true" signature="2214:2267" ph="SELECT * FRO... type_contrat" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="experience.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/experience.php">
+      <file leaf-file-name="resultats_recherche.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resultats_recherche.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="34" column="50" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
+            <state relative-caret-position="1380">
+              <caret line="113" column="17" selection-start-line="113" selection-start-column="17" selection-end-line="113" selection-end-column="17" />
               <folding>
-                <marker date="1484839280000" expanded="true" signature="161:186" ph="SELECT * FRO... utilisateur" />
+                <marker date="1485527712000" expanded="true" signature="161:186" ph="SELECT * FRO... utilisateur" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/header.php">
+      <file leaf-file-name="date.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/date.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="35" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="35" />
-              <folding />
+            <state relative-caret-position="120">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+              <folding>
+                <marker date="1485527461000" expanded="true" signature="213:238" ph="SELECT * FRO... utilisateur" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -174,13 +281,10 @@
       <list>
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/etablissement.php" />
-        <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/connexion.php" />
         <option value="$PROJECT_DIR$/ajax_refresh.php" />
-        <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/form.php" />
-        <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/classification.php" />
         <option value="$PROJECT_DIR$/poste.php" />
         <option value="$PROJECT_DIR$/posteHotellerie.php" />
@@ -190,8 +294,18 @@
         <option value="$PROJECT_DIR$/service_restauration.php" />
         <option value="$PROJECT_DIR$/poste_restauration.php" />
         <option value="$PROJECT_DIR$/poste_hotellerie.php" />
-        <option value="$PROJECT_DIR$/contrat.php" />
+        <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/footer.php" />
+        <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/experience.php" />
+        <option value="$PROJECT_DIR$/contrat.php" />
+        <option value="$PROJECT_DIR$/duree_stage.php" />
+        <option value="$PROJECT_DIR$/formation_minimum.php" />
+        <option value="$PROJECT_DIR$/duree_contrat.php" />
+        <option value="$PROJECT_DIR$/cursus_scolaire.php" />
+        <option value="$PROJECT_DIR$/anglais.php" />
+        <option value="$PROJECT_DIR$/date.php" />
+        <option value="$PROJECT_DIR$/resultats_recherche.php" />
       </list>
     </option>
   </component>
@@ -205,7 +319,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="804" />
+    <option name="height" value="809" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -260,47 +374,21 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vendors" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Soshcr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Soshcr" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Soshcr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Soshcr" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="datepicker" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -378,7 +466,11 @@
       <workItem from="1484814191023" duration="15239000" />
       <workItem from="1484834439938" duration="7000" />
       <workItem from="1484835645657" duration="176000" />
-      <workItem from="1484836025248" duration="2963000" />
+      <workItem from="1484836025248" duration="3504000" />
+      <workItem from="1485113139360" duration="472000" />
+      <workItem from="1485352700715" duration="10406000" />
+      <workItem from="1485419159417" duration="18570000" />
+      <workItem from="1485506763345" duration="13358000" />
     </task>
     <task id="LOCAL-00001" summary="bdd compléte pour le projet">
       <created>1484667330774</created>
@@ -457,17 +549,24 @@
       <option name="project" value="LOCAL" />
       <updated>1484833631755</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Formulaire -&gt; Experience">
+      <created>1484840161408</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1484840161408</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46484000" />
+    <option name="totallyTimeSpent" value="89831000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="804" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="809" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.124305554" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09656652" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292517" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -481,7 +580,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292517" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286517" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -545,59 +644,16 @@
     <MESSAGE value="Classification.." />
     <MESSAGE value="BDD à jour" />
     <MESSAGE value="Formulaire -&gt; contact" />
-    <option name="LAST_COMMIT_MESSAGE" value="Formulaire -&gt; contact" />
+    <MESSAGE value="Formulaire -&gt; Experience" />
+    <option name="LAST_COMMIT_MESSAGE" value="Formulaire -&gt; Experience" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="18" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendors/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ville.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etablissement.php" />
-    <entry file="file://$PROJECT_DIR$/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ajax_refresh.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -750,13 +806,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/404.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -780,11 +829,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -796,13 +847,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/service_restauration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+          <folding>
+            <marker date="1484836648000" expanded="true" signature="161:186" ph="SELECT * FRO... utilisateur" />
+            <marker date="1484836648000" expanded="true" signature="1790:1887" ph="..." />
+            <marker date="1484836648000" expanded="true" signature="1829:1876" ph="SELECT * FRO... service" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -814,34 +867,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="35" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="35" />
+        <state relative-caret-position="240">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ville.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="135">
+          <caret line="9" column="103" selection-start-line="9" selection-start-column="101" selection-end-line="9" selection-end-column="103" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/secteur_activite.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1335">
-          <caret line="89" column="7" selection-start-line="89" selection-start-column="7" selection-end-line="89" selection-end-column="7" />
+        <state relative-caret-position="60">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="37" />
           <folding>
             <marker date="1484832160000" expanded="true" signature="277:302" ph="SELECT * FRO... utilisateur" />
             <marker date="1484832160000" expanded="true" signature="2053:2074" ph="SELECT * FRO... secteur" />
@@ -849,25 +894,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classification.php">
+    <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-          <folding>
-            <marker date="1484820688000" expanded="true" signature="142:167" ph="SELECT * FRO... utilisateur" />
-            <marker date="1484820688000" expanded="true" signature="1290:1317" ph="SELECT * FRO... etablissement" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="12" column="67" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service_restauration.php">
+    <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        <state relative-caret-position="225">
+          <caret line="15" column="76" selection-start-line="15" selection-start-column="76" selection-end-line="15" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classification.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="17" />
           <folding>
-            <marker date="1484836648000" expanded="true" signature="161:186" ph="SELECT * FRO... utilisateur" />
-            <marker date="1484836648000" expanded="true" signature="1790:1887" ph="..." />
-            <marker date="1484836648000" expanded="true" signature="1829:1876" ph="SELECT * FRO... service" />
+            <marker date="1484820688000" expanded="true" signature="142:167" ph="SELECT * FRO... utilisateur" />
+            <marker date="1484820688000" expanded="true" signature="1290:1317" ph="SELECT * FRO... etablissement" />
           </folding>
         </state>
       </provider>
@@ -891,8 +947,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/poste_hotellerie.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+        <state relative-caret-position="915">
+          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="79" selection-end-column="5" />
           <folding>
             <marker date="1484837967000" expanded="true" signature="161:186" ph="SELECT * FRO... utilisateur" />
             <marker date="1484837967000" expanded="true" signature="1740:1795" ph="SELECT * FRO... poste_recherche" />
@@ -900,27 +956,109 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contrat.php">
+    <entry file="file://$PROJECT_DIR$/duree_stage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="20" />
+        <state relative-caret-position="390">
+          <caret line="40" column="20" selection-start-line="31" selection-start-column="0" selection-end-line="40" selection-end-column="20" />
           <folding>
-            <marker date="1484838960000" expanded="true" signature="161:186" ph="SELECT * FRO... utilisateur" />
-            <marker date="1484838960000" expanded="true" signature="1982:2003" ph="SELECT * FRO... poste_recherche" />
-            <marker date="1484838960000" expanded="true" signature="1982:2021" ph="SELECT * FRO... contrat" />
-            <marker date="1484838960000" expanded="true" signature="1982:2042" ph="SELECT * FRO... contrat" />
-            <marker date="1484838960000" expanded="true" signature="2158:2184" ph="..." />
-            <marker date="1484838960000" expanded="true" signature="2216:2246" ph="..." />
+            <marker date="1485462221000" expanded="true" signature="231:256" ph="SELECT * FRO... utilisateur" />
+            <marker date="1485462221000" expanded="true" signature="2214:2267" ph="SELECT * FRO... type_contrat" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/formation_minimum.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+          <folding>
+            <marker date="1485511591000" expanded="true" signature="200:225" ph="SELECT * FRO... utilisateur" />
+            <marker date="1485511591000" expanded="true" signature="2238:2266" ph="..." />
+            <marker date="1485511591000" expanded="true" signature="2279:2302" ph="SELECT * FRO... formation" />
+            <marker date="1485511591000" expanded="true" signature="2424:2450" ph="..." />
+            <marker date="1485511591000" expanded="true" signature="2482:2512" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/experience.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="34" column="50" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
+        <state relative-caret-position="335">
+          <caret line="125" column="13" selection-start-line="125" selection-start-column="13" selection-end-line="125" selection-end-column="13" />
           <folding>
-            <marker date="1484839280000" expanded="true" signature="161:186" ph="SELECT * FRO... utilisateur" />
+            <marker date="1485438681000" expanded="true" signature="222:247" ph="SELECT * FRO... utilisateur" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cursus_scolaire.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="53" selection-end-column="20" />
+          <folding>
+            <marker date="1485517221000" expanded="true" signature="227:252" ph="SELECT * FRO... utilisateur" />
+            <marker date="1485517221000" expanded="true" signature="2213:2244" ph="..." />
+            <marker date="1485517221000" expanded="true" signature="2222:2244" ph="..." />
+            <marker date="1485517221000" expanded="true" signature="2272:2298" ph="..." />
+            <marker date="1485517221000" expanded="true" signature="2530:2559" ph="SELECT * FRO... cursus_scolaire" />
+            <marker date="1485517221000" expanded="true" signature="2699:2725" ph="..." />
+            <marker date="1485517221000" expanded="true" signature="2757:2787" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contrat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="93" column="6" selection-start-line="93" selection-start-column="6" selection-end-line="93" selection-end-column="6" />
+          <folding>
+            <marker date="1485419678000" expanded="true" signature="327:352" ph="SELECT * FRO... utilisateur" />
+            <marker date="1485419678000" expanded="true" signature="2497:2557" ph="SELECT * FRO... contrat" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/duree_contrat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <marker date="1485522641000" expanded="true" signature="196:221" ph="SELECT * FRO... utilisateur" />
+            <marker date="1485522641000" expanded="true" signature="2284:2336" ph="SELECT * FRO... type_contrat" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anglais.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="118" selection-end-column="5" />
+          <folding>
+            <marker date="1485526968000" expanded="true" signature="242:267" ph="SELECT * FRO... utilisateur" />
+            <marker date="1485526968000" expanded="true" signature="4809:4834" ph="..." />
+            <marker date="1485526968000" expanded="true" signature="4847:4868" ph="SELECT * FRO... anglais" />
+            <marker date="1485526968000" expanded="true" signature="4981:5007" ph="..." />
+            <marker date="1485526968000" expanded="true" signature="5039:5069" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/date.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+          <folding>
+            <marker date="1485527461000" expanded="true" signature="213:238" ph="SELECT * FRO... utilisateur" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultats_recherche.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="113" column="17" selection-start-line="113" selection-start-column="17" selection-end-line="113" selection-end-column="17" />
+          <folding>
+            <marker date="1485527712000" expanded="true" signature="161:186" ph="SELECT * FRO... utilisateur" />
           </folding>
         </state>
       </provider>
