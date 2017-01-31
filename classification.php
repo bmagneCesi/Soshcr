@@ -4,6 +4,7 @@
 
 <?php
 include("connexion.php");
+$_SESSION['step'] = 2;
 $pdo = connect();
 
 $utilisateurs=$pdo->query("SELECT * FROM utilisateur");
@@ -42,17 +43,17 @@ if ( isset($_POST['classification']) ){
 
 }
 ?>
-
-	<ul>
+<div id="classification" class="col-xs-12">
+	<ul class="col-lg-8 col-lg-offset-2">
 		<?php
 		$classifications=$pdo->query("SELECT * FROM etablissement");
 		$classifications->setFetchMode(PDO::FETCH_OBJ);
 		while( $classification = $classifications->fetch() ) {
 			?>
-			<li>
+			<li class="col-lg-3">
 				<form method="post">
 					<button>
-						<img src="img/1-stars.png" alt="">
+						<img src="img/<?php echo $classification->id_etablissement?>-stars.png" alt="">
 						<p><?php echo $classification->libelle?></p>
 					</button>
 					<input type="hidden" value="<?php echo $classification->id_etablissement?>" name="classification">
@@ -62,11 +63,9 @@ if ( isset($_POST['classification']) ){
 		}
 		?>
 	</ul>
-</form>
-
-<input type="button" value="Retour" onclick="document.location.href='ville.php';">
-
-
+	<div class="clearfix"></div>
+	<a href="ville.php"><i class="fa fa-caret-left" aria-hidden="true"></i> Retour</a>
+</div>
 
 
 <!-- FOOTER -->

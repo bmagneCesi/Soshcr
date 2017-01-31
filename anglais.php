@@ -2,6 +2,7 @@
 <?php include('header.php') ?>
 <!-- HEADER -->
 <?php
+$_SESSION['step'] = 9;
 unset($_SESSION["anglais"]);
 unset($_SESSION["start"]);
 unset($_SESSION["end"]);
