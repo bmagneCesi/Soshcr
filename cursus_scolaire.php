@@ -2,6 +2,7 @@
 <?php include('header.php') ?>
 <!-- HEADER -->
 <?php
+$_SESSION['step'] = 7;
 unset($_SESSION["cursus_scolaire"]);
 unset($_SESSION["anglais"]);
 print_r($_SESSION);

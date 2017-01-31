@@ -2,6 +2,7 @@
 <?php include('header.php') ?>
 <!-- HEADER -->
 <?php
+$_SESSION['step'] = 6;
 unset($_SESSION["duree_contrat"]);
 print_r($_SESSION);
 include("connexion.php");

@@ -40,3 +40,4 @@
 
 
         </header>
+    <div id="barre-jaune-header"></div>

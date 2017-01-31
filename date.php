@@ -2,6 +2,7 @@
 <?php include('header.php') ?>
 <!-- HEADER -->
 <?php
+$_SESSION['step'] = 10;
 unset($_SESSION["start"]);
 unset($_SESSION["end"]);
 print_r($_SESSION);

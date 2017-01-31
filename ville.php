@@ -35,6 +35,7 @@
 <?php
 session_destroy();
 session_start();
+$_SESSION['step'] = 1;
 // première page
 if ( isset($_POST['ville']) ) {
 

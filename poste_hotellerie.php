@@ -2,6 +2,7 @@
 <?php include('header.php') ?>
 <!-- HEADER -->
 <?php
+$_SESSION['step'] = 4;
 print_r($_SESSION);
 include("connexion.php");
 $pdo = connect();

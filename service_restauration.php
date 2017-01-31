@@ -2,6 +2,7 @@
 <?php include('header.php') ?>
 <!-- HEADER -->
 <?php
+$_SESSION['step'] = 3;
 print_r($_SESSION);
 include("connexion.php");
 $pdo = connect();
@@ -50,7 +51,7 @@ $utilisateurs->closeCursor();
 
 
 if ( isset($_POST['service_restauration']) ){
-
+$_SESSION['step'] = 3;
 $_SESSION['service_restauration'] = $_POST['service_restauration'];
 header('Location: poste_restauration.php');
 //session_destroy();

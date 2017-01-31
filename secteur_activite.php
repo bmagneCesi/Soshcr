@@ -2,6 +2,7 @@
 <?php include('header.php') ?>
 <!-- HEADER -->
 <?php
+$_SESSION['step'] = 3;
 unset($_SESSION["secteur_activite"]);
 unset($_SESSION["poste_hotellerie"]);
 unset($_SESSION["poste_restauration"]);
