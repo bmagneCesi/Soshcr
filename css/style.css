@@ -559,7 +559,6 @@ and (min-width : 1024px) {
     to{
       -webkit-clip-path: polygon(0% 84%, 100% 42%, 100% 85%, 0% 97%);
       width: 50%;
-      
     }
   }
 
@@ -567,7 +566,7 @@ and (min-width : 1024px) {
 
   @keyframes stepSix{
     from{
-      -webkit-clip-path: polygon(0% 84%, 100% 45%, 100% 85%, 0% 97%);
+      -webkit-clip-path: polygon(0% 84%, 100% 42%, 100% 85%, 0% 97%);
       width: 50%;
     }
     to{
