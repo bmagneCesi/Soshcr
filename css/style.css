@@ -196,9 +196,11 @@ and (max-width : 767px) {
 /***********************************************
           CLASSIFICATION           
 /***********************************************/
+#classification {margin-top:150px;}
 #classification ul li{list-style-type: none}
+#classification ul li p{font-family: "Stellar";font-size: 15px}
 #classification ul li button{background:none;border:none;}
-
+#classification img.rating{width:150px;margin: 0 auto;}
 
 
 /* ANIMATIONS */
