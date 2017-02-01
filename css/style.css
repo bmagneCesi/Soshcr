@@ -15,7 +15,7 @@ a{text-decoration: none!important; color:inherit!important;}
 /*******************************************************************
   		                LAYOUT
 *******************************************************************/
-
+.form-img{width:150px;margin: 0 auto;}
 /***********************************************
  					HEADER 					
 /***********************************************/
@@ -151,7 +151,7 @@ and (min-device-width: 1025px){
  					FORM 					
 /***********************************************/
 .form{text-align: center;margin-top: 110px}
-.title-heading{color: #394076;font-family: "Stellar"}
+.title-heading{color: #394076;font-family: "Stellar";text-align: center;margin: 60px auto}
 #seach-btn{background: none;margin-left: -3px}
 .hdpi.pac-logo:after{background:none!important;display: none} /* hide google powered */
 @media only screen 
@@ -189,15 +189,19 @@ and (orientation: landscape){
 @media only screen 
 and (max-width : 767px) {
   
-  .title-heading{font-size: 20px}  
+  .title-heading{font-size: 20px;text-align: center;}  
 
 }
 
 /***********************************************
-          CLASSIFICATION           
+          FORM           
 /***********************************************/
-#classification ul li{list-style-type: none}
-#classification ul li button{background:none;border:none;}
+.sos-form{margin-top:30px;}
+.sos-form ul li{list-style-type: none}
+.sos-form ul li p{font-family: "Stellar";font-size: 15px}
+.sos-form ul li button{background:none;border:none;}
+
+
 
 
 

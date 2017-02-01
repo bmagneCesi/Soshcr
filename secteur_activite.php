@@ -68,17 +68,18 @@ if ( isset($_POST['secteur_activite']) ){
 
 }
 ?>
-
-<ul>
+<div id="secteur" class="col-xs-12 sos-form">
+<h3 class="title-heading">Dans quel secteur d’activité recrutez vous ?</h3>
+<ul class="col-lg-8 col-lg-offset-2">
     <?php
     $secteurs=$pdo->query("SELECT * FROM secteur");
     $secteurs->setFetchMode(PDO::FETCH_OBJ);
     while( $secteur = $secteurs->fetch() ) {
         ?>
-        <li>
+        <li class="col-sm-6 col-md-6 text-center">
             <form method="post">
                 <button>
-                    <img src="img/1-stars.png" alt="">
+                    <img src="img/secteur/<?php echo $secteur->id_secteur?>-secteur.png" alt="" class="img-responsive form-img">
                     <p><?php echo $secteur->libelle?></p>
                 </button>
                 <input type="hidden" value="<?php echo $secteur->id_secteur?>" name="secteur_activite">
@@ -88,11 +89,10 @@ if ( isset($_POST['secteur_activite']) ){
     }
     ?>
 </ul>
-</form>
 
-<input type="button" value="Retour" onclick="document.location.href='classification.php';">
-
-
+    <div class="clearfix spacer"></div>
+    <a href="classification.php" class="col-sm-offset-2"><i class="fa fa-caret-left" aria-hidden="true"></i> Précédent</a>
+</div>
 
 
 

@@ -43,17 +43,18 @@ if ( isset($_POST['classification']) ){
 
 }
 ?>
-<div id="classification" class="col-xs-12">
+<div id="classification" class="col-xs-12 sos-form">
+	<h3 class="title-heading">Quelle est votre classification ?</h3>
 	<ul class="col-lg-8 col-lg-offset-2">
 		<?php
 		$classifications=$pdo->query("SELECT * FROM etablissement");
 		$classifications->setFetchMode(PDO::FETCH_OBJ);
 		while( $classification = $classifications->fetch() ) {
 			?>
-			<li class="col-lg-3">
+			<li class="col-sm-6 col-md-3 text-center">
 				<form method="post">
 					<button>
-						<img src="img/<?php echo $classification->id_etablissement?>-stars.png" alt="">
+						<img src="img/rating/<?php echo $classification->id_etablissement?>-stars.png" alt="" class="img-responsive form-img">
 						<p><?php echo $classification->libelle?></p>
 					</button>
 					<input type="hidden" value="<?php echo $classification->id_etablissement?>" name="classification">
@@ -63,8 +64,8 @@ if ( isset($_POST['classification']) ){
 		}
 		?>
 	</ul>
-	<div class="clearfix"></div>
-	<a href="ville.php"><i class="fa fa-caret-left" aria-hidden="true"></i> Retour</a>
+	<div class="clearfix spacer"></div>
+	<a href="ville.php" class="col-sm-offset-2"><i class="fa fa-caret-left" aria-hidden="true"></i> Précédent</a>
 </div>
 
 

@@ -58,18 +58,22 @@ header('Location: contrat.php');
 //print_r($_SESSION);
 
 }
+
+
 ?>
 
-<ul>
+<div id="poste_hotellerie" class="col-xs-12 sos-form">
+<h3 class="title-heading">Quel poste ?</h3>
+<ul class="col-lg-8 col-lg-offset-2">
     <?php
     $postes=$pdo->query("SELECT * FROM poste_recherche WHERE secteur_id_secteur=".$_SESSION['secteur_activite']);
     $postes->setFetchMode(PDO::FETCH_OBJ);
     while( $poste = $postes->fetch() ) {
         ?>
-        <li>
+        <li class="col-sm-6 col-md-2 text-center">
             <form method="post">
                 <button>
-                    <img src="img/1-stars.png" alt="">
+                    <img src="img/poste/<?php echo toUrl($poste->libelle, "'")?>.png" alt="" class="img-responsive form-img">
                     <p><?php echo $poste->libelle?></p>
                 </button>
                 <input type="hidden" value="<?php echo $poste->id_poste_recherche?>" name="poste_hotellerie">
@@ -80,10 +84,9 @@ header('Location: contrat.php');
     ?>
 </ul>
 
-
-<input type="button" value="Retour" onclick="document.location.href='secteur_activite.php';">
-
-
+    <div class="clearfix spacer"></div>
+    <a href="secteur_activite.php" class="col-sm-offset-2"><i class="fa fa-caret-left" aria-hidden="true"></i> Précédent</a>
+</div>
 
 
 
