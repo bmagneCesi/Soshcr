@@ -11,6 +11,7 @@ $pdo = connect();
 
 $utilisateurs=$pdo->query("SELECT * FROM utilisateur");
 $utilisateurs->setFetchMode(PDO::FETCH_OBJ);
+$nbPers= 0;
 while( $utilisateur = $utilisateurs->fetch() )
 {
 //echo 'NomUser : '.$utilisateur->nom.'<br>';
@@ -128,10 +129,11 @@ while( $utilisateur = $utilisateurs->fetch() )
 
         if ($resultat->nom == $utilisateur->nom){
 //echo 'UtilisateurBon : '.$resultat->nom.'<br>';
-            echo "Le nombre de personne est de : ".$resultat->c;
+            $nbPers = $resultat->c;
         }
     }
 }
+echo "Le nombre de personne est de : ".$nbPers;
 ?>
 <form method="post">
 <div id="sandbox-container">

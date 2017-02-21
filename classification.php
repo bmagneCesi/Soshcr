@@ -9,6 +9,7 @@ $pdo = connect();
 
 $utilisateurs=$pdo->query("SELECT * FROM utilisateur");
 $utilisateurs->setFetchMode(PDO::FETCH_OBJ);
+$nbPers= 0;
 while( $utilisateur = $utilisateurs->fetch() )
 {
 	//echo 'NomUser : '.$utilisateur->nom.'<br>';
@@ -19,17 +20,20 @@ while( $utilisateur = $utilisateurs->fetch() )
 	$formule="(6366*ACOS(COS(RADIANS($lat))*COS(RADIANS(latitude))*COS(RADIANS(longitude)-RADIANS($long))+SIN(RADIANS($lat))*SIN(RADIANS(latitude))))";
 	$resultats=$pdo->query("SELECT *, COUNT(*) as c, ".$formule." AS dist FROM utilisateur WHERE ".$formule." < $utilisateur->nombre_kilometre ORDER BY dist ASC");
 	$resultats->setFetchMode(PDO::FETCH_OBJ);
+
 	while( $resultat = $resultats->fetch() )
 	{
 
 
 		if ($resultat->nom == $utilisateur->nom){
 			//echo 'UtilisateurBon : '.$resultat->nom.'<br>';
-			echo "Le nombre de personne est de : ".$resultat->c;
+			$nbPers = $resultat->c;
+
 		}
 
 	}
 }
+echo "Le nombre de personne est de : ".$nbPers;
 $utilisateurs->closeCursor();
 
 
