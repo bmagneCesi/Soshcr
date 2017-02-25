@@ -49,6 +49,7 @@ ORDER BY dist ASC");
 
         if ($resultat->nom == $utilisateur->nom){
 //echo 'UtilisateurBon : '.$resultat->nom.'<br>';
+            //echo "Le nombre de personne est de : ".$resultat->c;
             $nbPers = $resultat->c;
         }
     }
@@ -79,7 +80,7 @@ if ( isset($_POST['contrat']) ){
 
 <ul>
     <?php
-    $contrats=$pdo->query("SELECT * FROM contrat WHERE id_contrat <>1 AND id_contrat<>7");
+    $contrats=$pdo->query("SELECT * FROM contrat WHERE id_contrat <>1 AND id_contrat<>7 ORDER BY id_contrat DESC ");
     $contrats->setFetchMode(PDO::FETCH_OBJ);
     while( $contrat = $contrats->fetch() ) {
         ?>

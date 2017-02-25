@@ -94,7 +94,7 @@ while( $utilisateur = $utilisateurs->fetch() )
         AND secteur_id_secteur=$secteur
         AND id_poste_recherche=$poste_recherche
         AND contrat_id_contrat=$contrat
-        AND utilisateur.anglais_id_anglais=$anglais
+        AND utilisateur.anglais_id_anglais>=$anglais
         $duree_stage2
         $cursus_scolaire2
         ORDER BY dist ASC");
@@ -114,7 +114,7 @@ while( $utilisateur = $utilisateurs->fetch() )
         AND secteur_id_secteur=$secteur
         AND id_poste_recherche=$poste_recherche
         AND poste_recherche_has_experience.contrat_id_contrat=$contrat
-        AND utilisateur.anglais_id_anglais=$anglais
+        AND utilisateur.anglais_id_anglais>=$anglais
         $contrat1
         $contrat2
         $formation2
@@ -139,8 +139,6 @@ echo "Le nombre de personne est de : ".$nbPers;
 <div id="sandbox-container">
     <div class="input-daterange input-group" id="datepicker">
         <input type="text" class="input-sm form-control" name="start" />
-        <span class="input-group-addon">to</span>
-        <input type="text" class="input-sm form-control" name="end" />
     </div>
 </div>
     <br>
@@ -150,11 +148,10 @@ echo "Le nombre de personne est de : ".$nbPers;
 </form>
 
 <?php
-if ( isset($_POST['start']) && isset($_POST['end']) ){
+if ( isset($_POST['start'])){
 
 
     $_SESSION['start'] = $_POST['start'];
-    $_SESSION['end'] = $_POST['end'];
     header('Location: resultats_recherche.php');
 //session_destroy();
 //print_r($_SESSION);
