@@ -38,7 +38,7 @@ while( $utilisateur = $utilisateurs->fetch() )
         if ($_SESSION['formation_minimum'] == 1) {
             $formation2 = "";
         } else {
-            $formation2 = "AND utilisateur.formation_id_formation=" . $formation;
+            $formation2 = "AND poste_recherche_has_experience.formation_id_formation=" . $formation;
         }
     }
     $contrat = $_SESSION['contrat'];
@@ -107,7 +107,7 @@ while( $utilisateur = $utilisateurs->fetch() )
         AND poste_recherche_has_experience.poste_recherche_id_poste_recherche=poste_recherche.id_poste_recherche
         AND poste_recherche_has_experience.contrat_id_contrat=contrat.id_contrat
         AND contrat.id_contrat=type_contrat.contrat_id_contrat
-        AND utilisateur.formation_id_formation=formation.id_formation
+        AND poste_recherche_has_experience.formation_id_formation=formation.id_formation
         AND poste_recherche_has_experience.experience_id_experience=experience.id_experience
         AND ".$formule." < $utilisateur->nombre_kilometre
         AND etablissement_id_etablissement=$classification

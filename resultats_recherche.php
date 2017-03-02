@@ -28,7 +28,7 @@ if(isset($_SESSION['formation_minimum'])) {
     if ($_SESSION['formation_minimum'] == 1) {
         $formation2 = "";
     } else {
-        $formation2 = "AND utilisateur.formation_id_formation=" . $formation;
+        $formation2 = "AND poste_recherche_has_experience.formation_id_formation=" . $formation;
     }
 }
 $contrat = $_SESSION['contrat'];
@@ -102,7 +102,7 @@ while( $utilisateur = $utilisateurs->fetch() )
         AND poste_recherche_has_experience.poste_recherche_id_poste_recherche=poste_recherche.id_poste_recherche
         AND poste_recherche_has_experience.contrat_id_contrat=contrat.id_contrat
         AND contrat.id_contrat=type_contrat.contrat_id_contrat
-        AND utilisateur.formation_id_formation=formation.id_formation
+        AND poste_recherche_has_experience.formation_id_formation=formation.id_formation
         AND poste_recherche_has_experience.experience_id_experience=experience.id_experience
         AND ".$formule." < $utilisateur->nombre_kilometre
         AND etablissement_id_etablissement=$classification
@@ -172,7 +172,7 @@ else{
         AND poste_recherche_has_experience.poste_recherche_id_poste_recherche=poste_recherche.id_poste_recherche
         AND poste_recherche_has_experience.contrat_id_contrat=contrat.id_contrat
         AND contrat.id_contrat=type_contrat.contrat_id_contrat
-        AND utilisateur.formation_id_formation=formation.id_formation
+        AND poste_recherche_has_experience.formation_id_formation=formation.id_formation
         AND poste_recherche_has_experience.experience_id_experience=experience.id_experience
         AND ".$formule2." < nombre_kilometre
         AND etablissement_id_etablissement=$classification
@@ -189,10 +189,18 @@ else{
 
 $resultats2->setFetchMode(PDO::FETCH_OBJ);
 
+?>
+<form method="post">
+    tout sélectionner <input onclick="CocheTout(this, 'mail_demande_utilisateur[]');" type="checkbox"><br/><br>
+    <div id="imprime_moi">
+    <?php
+
 while( $resultat2 = $resultats2->fetch() )
 {
 
-
+        ?>
+        <input type="checkbox" value="<?php echo $resultat2->mail; ?>" name="mail_demande_utilisateur[]">
+        <?php
         echo $resultat2->nom."<br>";
         echo $resultat2->prenom."<br>";
         $age =  (int) ((time() - strtotime($resultat2->date_anniversaire))/ 3600 / 24 / 365);
@@ -222,13 +230,31 @@ while( $resultat2 = $resultats2->fetch() )
 
 
 ?>
-
+</div>
+    <input type="submit" value="Demander CV"">
+    </form>
 
     <input type="button" value="Commencer nouvelle recherche" onclick="document.location.href='ville.php';">
+    <a href="#" onclick="javascript:imprime_bloc('titre', 'imprime_moi');">Imprimer</a>
 
 
 
     <input type="button" value="Retour" onclick="document.location.href='date.php';">
+
+<?php
+$tab_demande = [];
+if ( isset($_POST['mail_demande_utilisateur']) ){
+    foreach ($_POST['mail_demande_utilisateur'] as $demandeCV){
+        $tab_demande[] =$demandeCV;
+    }
+    $_SESSION['mail_demande_utilisateur'] = $tab_demande;
+
+    header('Location: demande_cv.php');
+//session_destroy();
+//print_r($_SESSION);
+
+}
+?>
 
 
 <!-- FOOTER -->

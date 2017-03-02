@@ -22,7 +22,7 @@
 			<div class="input-group-btn"  style="width:40px">
 		    <button class="btn btn-default" id="seach-btn" type="submit" style="height:35px">
 				<i class="fa fa-search" aria-hidden="true"></i>
-			</button>
+			</button>	
 
 		  </div>
 
@@ -37,22 +37,32 @@ session_destroy();
 session_start();
 $_SESSION['step'] = 1;
 // première page
-if ( isset($_POST['ville']) ) {
+if ( isset($_POST['ville']) && $_POST['ville'] !="" ) {
 
 	$geocoder = 'http://maps.googleapis.com/maps/api/geocode/json?address=%s&sensor=false';
-	$query = sprintf($geocoder, urlencode(utf8_encode($_POST['ville'])));
+	$query = sprintf($geocoder, urlencode($_POST['ville']));
 	$result = json_decode(file_get_contents($query));
-	$json = $result->results[0];
-	$lat = $json->geometry->location->lat;
-	$long = $json->geometry->location->lng;
-	//echo $lat;
-	//echo $long;
+	if ($result == NULL || $result->status == "ZERO_RESULTS" || $result->status == "INVALID_REQUEST"  || $result->status == "REQUEST_DENIED" ){
+		
+	}
+	else
+	{
+		$json = $result->results[0];
+		$lat = $json->geometry->location->lat;
+		$long = $json->geometry->location->lng;
+		//echo $lat;
+		//echo $long;
 
-	$_SESSION['ville'] = $_POST['ville'];
-	$_SESSION['longitudeVille'] = $long;
-	$_SESSION['latitudeVille'] = $lat;
+		$_SESSION['ville'] = $_POST['ville'];
+		$_SESSION['longitudeVille'] = $long;
+		$_SESSION['latitudeVille'] = $lat;
 
-	header('Location: classification.php');
+		header('Location: classification.php');
+	}
+	
+}
+else{
+	
 }
 
 ?>
